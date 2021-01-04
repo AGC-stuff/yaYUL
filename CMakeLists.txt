@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 3.12)
 project(virtualYUL LANGUAGES C)
 
 set(CFILES GetOctOrDec.c ParseBBCON.c ParseEQUALS.c ParseINDEX.c ParseXCADR.c yaYUL.c
