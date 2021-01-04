@@ -16,5 +16,3 @@ add_executable(yaYUL ${CFILES})
 target_compile_options(yaYUL PRIVATE ${CFLAGS})
 target_link_libraries(yaYUL PRIVATE m)
 target_compile_definitions(yaYUL PRIVATE NVER="${NVER}")
-
-install(TARGETS yaYUL)
